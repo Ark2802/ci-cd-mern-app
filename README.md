@@ -1,7 +1,5 @@
 # CI/CD Pipeline for MERN Backend Application
 
-[![CI/CD Pipeline](https://github.com/YOUR_USERNAME/ci-cd-mern-app/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/YOUR_USERNAME/ci-cd-mern-app/actions/workflows/ci-cd.yml)
-
 A production-ready Express.js backend application with automated CI/CD pipeline using GitHub Actions and Docker Hub.
 
 ## 🚀 Features
@@ -290,47 +288,4 @@ curl http://localhost:5000/api/health
 # Docker health status
 docker ps
 ```
-
-## 🚢 Deployment
-
-The Docker image can be deployed to various platforms:
-
-- **AWS ECS/EKS**: Elastic Container Service or Kubernetes
-- **Azure Container Instances**: Serverless containers
-- **Google Cloud Run**: Fully managed serverless platform
-- **Heroku**: Container Registry
-- **DigitalOcean**: App Platform or Kubernetes
-
-## 📝 License
-
-ISC
-
-## 👨‍💻 Author
-
-Your Name
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -am 'Add feature'`
-4. Push to branch: `git push origin feature-name`
-5. Submit a pull request
-
-## 📧 Support
-
-For issues and questions, please open an issue on GitHub.
-
----
-
-## 📸 Screenshots
-
-### Successful GitHub Actions Workflow
-![GitHub Actions Success](screenshots/github-actions-success.png)
-
-### Docker Hub Repository
-![Docker Hub](screenshots/docker-hub-repository.png)
-
----
-
 **Note**: Remember to replace `YOUR_USERNAME` and `YOUR_DOCKERHUB_USERNAME` with your actual GitHub and Docker Hub usernames throughout this document.
